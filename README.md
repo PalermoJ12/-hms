@@ -52,5 +52,5 @@ npm run serve
 -- cd backend
 composer install
 php artisan migrate
-php artisan db
+php artisan db:seed
 php artisan serve

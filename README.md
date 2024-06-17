@@ -9,9 +9,7 @@ The Hospital Management System (HMS) is a web application designed to facilitate
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 

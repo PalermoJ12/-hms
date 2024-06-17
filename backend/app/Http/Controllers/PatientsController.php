@@ -19,10 +19,6 @@ class PatientsController
         return response(["patients" => $patients], 200);
     }
 
-    public function create()
-    {
-        //
-    }
 
     public function store(Request $request)
     {
@@ -73,14 +69,7 @@ class PatientsController
         return response(['patient' => $patient], 200);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Patients $patients)
-    {
-        //
-    }
-
+ 
     /**
      * Update the specified resource in storage.
      */

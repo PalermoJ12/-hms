@@ -24,17 +24,7 @@ class MedicalRecordsController
 
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
 
@@ -91,9 +81,6 @@ class MedicalRecordsController
 
     }
 
-    /**
-     * Display the specified resource.
-     */
     public function show(Request $request)
     {
 
@@ -130,17 +117,7 @@ class MedicalRecordsController
 
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(MedicalRecords $medicalRecords)
-    {
-        //
-    }
 
-    /**
-     * Update the specified resource in storage.
-     */
     public function update(Request $request, $id)
     {
         $record = MedicalRecords::find($id);
@@ -153,11 +130,5 @@ class MedicalRecordsController
         return response(["record" => $record], 200);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(MedicalRecords $medicalRecords)
-    {
-        //
-    }
+
 }

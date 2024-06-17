@@ -49,8 +49,6 @@
                 </VaCardContent>
             </VaCard>
         </div>
-
-
     </div>
 
     <VaModal ref="modal" v-model="doShowModal">
